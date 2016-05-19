@@ -70,7 +70,6 @@ func Send(webhookUrl string, proxy string, payload map[string]interface{}) []err
 		End()
 
 	if err != nil {
-		log.Fatal(err)
 		return err
 	} else {
 		return nil
